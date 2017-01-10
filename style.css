@@ -1,0 +1,49 @@
+div {
+  border: 1px solid #ddd;
+}
+
+.buttons div {
+  float: left;
+}
+
+.buttons:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.btn-cyan {
+  color: cyan;
+}
+
+.btn-yellow {
+  color: yellow;
+}
+
+.btn-pink {
+  color: pink;
+}
+
+.dot {
+  height: 10px;
+}
+
+.dot.color-cyan {
+  background-color: cyan;
+}
+
+.dot.color-yellow {
+  background-color: yellow;
+}
+
+.dot.color-pink {
+  background-color: pink;
+}
+
+.not-selected {
+  color: black;
+}
+
+.blink {
+  opacity: .5;
+}
